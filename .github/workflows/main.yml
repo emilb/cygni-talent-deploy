@@ -33,11 +33,11 @@ jobs:
       - name: Install deps
         run: npm install
 
-      - name: Lint
-        run: npm run prettier
+      #- name: Prettier
+      #  run: npm run prettier
         
-      - name: Lint
-        run: npm run lint
+      #- name: Lint
+      #  run: npm run lint
         
       # Runs a single command using the runners shell
       - name: Test
