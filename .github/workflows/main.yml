@@ -29,6 +29,9 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: "14"
+          
+      - name: Install deps
+        run: npm install
 
       # Runs a single command using the runners shell
       - name: Test
